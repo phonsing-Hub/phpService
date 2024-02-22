@@ -1,0 +1,8 @@
+[Unit]
+Description=Demo php service
+
+[Service]
+ExecStart=/home/ps/phpService/mytemp.php
+
+[Install]
+WantedBy=multi-user.target
